@@ -6,6 +6,8 @@ import Laravel from '../assests/Laravel.png'
 import github from '../assests/github.png'
 import tailwind from '../assests/tailwind.png'
 import reactimg from '../assests/react.png'
+import chakra from '../assests/chakra.png'
+import firebase from '../assests/firebase.png'
 
 
 const Experience = () => {
@@ -41,21 +43,33 @@ const Experience = () => {
             color: "shadow-pink-500"
         },
         {
-            id: 1,
+            id: 6,
             src: tailwind,
             text: "Tailwind",
             color: "shadow-sky-500"
         },
         {
-            id: 1,
+            id: 7,
             src: reactimg,
             text: "React",
             color: "shadow-yellow-500"
+        },
+        {
+            id: 8,
+            src: chakra,
+            text: "Chakra",
+            color: "shadow-orange-500"
+        },
+        {
+            id: 9,
+            src: firebase,
+            text: "Firebase",
+            color: "shadow-gray-500"
         }
     ]
     return (
         <>
-            <div name="experience" className="md:h-5/6 w-full bg-gradient-to-b from-gray-800 to bg-black text-white pt-56">
+            <div name="experience" className="md:h-5/6 w-full bg-gradient-to-b from-gray-800 to bg-black text-white pt-72">
                 <div className="max-w-screen-lg mx-auto  flex flex-col justify-center w-full h-full p-4">
                     <div className="pb-8">
                         <p className="text-4xl font-bold border-b-4 border-gray-500 inline">Experiences</p>
